@@ -5,6 +5,7 @@ import NewPlaces from './places/pages/NewPlaces';
 
 function App() {
   return (
+    <div className="App">
     
     <Router>
       <Switch>
@@ -19,6 +20,7 @@ function App() {
       </Switch>
       
     </Router>
+    </div>
     
   );
 }
